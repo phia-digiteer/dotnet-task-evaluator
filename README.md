@@ -37,4 +37,13 @@ dotnet ef database update
 - Apply practical architectural concepts to guide decisions  
 - Enhance functionality where needed or where something feels off  
 - Work with EF Core to interact with data cleanly  
-- Optionally introduce supporting tests or clarifying documentation 
+- Optionally introduce supporting tests or clarifying documentation
+
+### 📦 Commit Guidelines
+
+Please commit frequently as you work. Avoid one big fat commit at the end.
+Each commit should:
+
+- Have a clear, descriptive message (e.g., Add TaskService)-Explain your reasoning if you're making assumptions or design choices
+- Show incremental progress (yes, even small ones!)
+- Your commit history helps us understand your thinking — don’t hide the struggle 💪
