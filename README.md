@@ -1,14 +1,15 @@
-# .NET Task Evaluator API
+# .NET Task Evaluator API – Technical Exam
 
-🔧 Tech Stack
-.NET 9 Web API
+⏰ **Estimated Time**: 2–3 hours  
+🔧 **Tech Stack**:
+- .NET 9 Web API  
+- PostgreSQL  
+- Entity Framework Core (EF Core)  
+- Swagger for API documentation  
 
-PostgreSQL
+---
 
-EF Core
-
-Swagger for API docs
-## 🚀 Getting Started
+## 🧪 Technical Exam Instructions
 
 ### 1. Clone the repository
 
@@ -17,19 +18,23 @@ git clone https://github.com/phia-digiteer/dotnet-task-evaluator.git
 cd dotnet-task-evaluator
 ```
 
-### 2. Setup environment
+---
 
+2. Set up the environment
+Make sure you have the .NET 9 SDK and PostgreSQL installed. Configure your local database connection string as needed.
+3. Apply database migrations
+Run the following command to create the database schema:
 
-### 3. Apply database migrations
-
+```bash
+dotnet ef database update
+```
 
 ### 🎯 Objectives
-✅ Interact with a .NET 9 Web API in a realistic development environment
-🛠️ Notice gaps or inconsistencies within basic operations
-🔐 Consider improvements around structure, access control, and maintainability
-🧠 Apply practical architectural concepts to guide decisions
-🚀 Enhance functionality where needed or where something feels off
-📜 Work with EF Core to interact with data cleanly
-🧪 Optionally introduce supporting tests or clarifying documentation
 
-📝 Big Reminder: Please commit frequently as you work. Use descriptive messages that explain what you were thinking, especially if you're unsure about something or making a decision based on an assumption.
+- Interact with a .NET 9 Web API in a realistic development environment  
+- Notice gaps or inconsistencies within basic operations  
+- Consider improvements around structure, access control, and maintainability  
+- Apply practical architectural concepts to guide decisions  
+- Enhance functionality where needed or where something feels off  
+- Work with EF Core to interact with data cleanly  
+- Optionally introduce supporting tests or clarifying documentation 
